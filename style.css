@@ -1,0 +1,135 @@
+
+    
+
+body {
+    background-color: #ccc;
+  }
+  
+  .french-flag {
+    padding: 33.33%;
+    background-color: #ffff;
+    position: relative;
+  }
+  .french-flag:before {
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: #ED2938;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .french-flag:after {
+    content: "";
+    width: 33.33%;
+    height:100%;
+   background-color: #002495;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  
+  .german-flag {
+    padding: 30%;
+    background-color: #DE0002;
+    position: relative;
+  }
+  
+  .german-flag:before {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color:#000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .german-flag:after {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color:  #FFCE00;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+  }
+  
+  .japan-flag {
+    padding: 33.33%;
+    background-color: #ffff;
+    position: relative;
+  }
+  .japan-flag:before {
+    content: "";
+    width: 40%;
+    height: 60%;
+    background-color:  #BC022C;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 50%;
+   
+  }
+  
+  .madagascar-flag {
+    padding: 30%;
+    background-color: #ffffff;
+    position: relative;
+    border-style: solid
+  }
+  
+  .madagascar-flag: {
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:#fffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .madagascar-flag:before {
+    content: "";
+    width: 67%;
+    height: 50%;
+    background-color:  #FC3F32;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+   
+  }
+  .madagascar-flag:after {
+    content: "";
+    width: 67%;
+    height: 50%;
+    background-color:  #007E39;
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+   }
+   .gambia-flag {
+    padding: 33.33%;
+    background-color: #ffff;
+    position: relative;
+  }
+  
+  .gambia-flag {
+    background-image:-webkit-linear-gradient(#ce1126 33%,#fff 33%,#fff 38%,#0c1c8c 38%,#0c1c8c 62%,#fff 62%,#fff 67%,#3a7728 67%);
+  }
+  
+  .gambia-flag: {
+  background-image:-o-linear-gradient(#ce1126 33%,#fff 33%,#fff 38%,#0c1c8c 38%,#0c1c8c 62%,#fff 62%,#fff 67%,#3a7728 67%);
+  }
+  
+  .gambia-flag: {
+    background-image:-moz-linear-gradient(#ce1126 33%,#fff 33%,#fff 38%,#0c1c8c 38%,#0c1c8c 62%,#fff 62%,#fff 67%,#3a7728 67%);
+   
+  }
+  .gambia-flag: {
+    background-image:linear-gradient(#ce1126 33%,#fff 33%,#fff 38%,#0c1c8c 38%,#0c1c8c 62%,#fff 62%,#fff 67%,#3a7728 67%);width:200px;height:133px
+    }
+  
+  
